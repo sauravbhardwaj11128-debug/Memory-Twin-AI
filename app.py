@@ -10,7 +10,7 @@ ARMORIQ_API_KEY = "ak_live_1ca54cbfe24aaf748af54e4bceb5602d73e8eb51c66c3f347195a
 
 genai.configure(api_key=GEMINI_API_KEY)
 
-model = genai.GenerativeModel("gemini-2.0-flash")
+model = genai.GenerativeModel("gemini-1.5-flash")
 
 embedding_model = SentenceTransformer(
     "all-MiniLM-L6-v2"
