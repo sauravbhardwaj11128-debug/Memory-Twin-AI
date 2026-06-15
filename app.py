@@ -21,7 +21,7 @@ client = chromadb.Client()
 try:
     memory_db = client.get_collection("memory_twin")
 except:
-    memory_db = client.create_collection("memory_twin")
+    memory_db = client.get_or_create_collection("memory_twin")
 
 
 if "logs" not in st.session_state:
