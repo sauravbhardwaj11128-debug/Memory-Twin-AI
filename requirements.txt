@@ -1,6 +1,6 @@
 streamlit
 google-generativeai
-chromadb
+chromadb==0.5.23
 sentence-transformers
 python-dotenv
 requests
